@@ -29,7 +29,14 @@ $internet = [
      "conectividad" => "largo alcanse",
      "velocidad de coneccion" => "Gbps",
      "acceso inalambrico" => "WI-FI,Bluetooth",
-     "protocolosde comunicacion" => "proyector DELL",
+     "direccion ip" => 000000008989,
+     "seguridad" => "SSL",
+     "ancho de banda" => "capasidad maxima de transferencia de datos",
+     "acceso global" => "disponibilidad de internet ",
+     "navegadores web" => "firefox, safari",
+     "servicios de la nuve " => "cspssidad de almacenar datos",
+     "redes sociales " => "plataformas en lidea",
+     "comercio electronico" => "compra y venta de vienes",
     
     ];
 
