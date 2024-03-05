@@ -50,3 +50,21 @@ $tecnologia = [
 // Creamos un arreglo de objetos relacionados por nombre
 $tecnologia_productos = [];
     ];
+
+// Recorremos el arreglo de people una persona a la vez
+foreach ($people as $person) {
+    // Creamos pares de llave valor con el nombre como llave y la persona como valor
+    $people_by_name[$person["nombre"]] = $proyector;
+}
+
+// Revisamos si el argumento nombre está definido en el URL
+if (isset($_GET["nombre"])) {
+    // Asignamos el valor del argumento GET a una variable llamada name
+    $name = $_GET["nombre"];
+    // Imprimir una sola persona que coincida con el nombre
+    echo json_encode($people_by_name[$name]);
+} else {
+    // Imprimir la lista completa de personas
+    echo json_encode($proyector);
+}
+
