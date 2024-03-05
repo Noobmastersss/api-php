@@ -15,13 +15,22 @@ $proyector = [
     "nivel de ruido" => 2,
     "funciones de red" =>  "transmision de datos",
     "peso" => 2.250 kg,
-    "tamallo" => 20 cm4,
+    "tamaño" => 20 cm4,
     "funciones de pantalla dividida" => "multi funciones",
     "funciones de seguridad" => "bloqueo de contraseña",
     "garantia" => "un año despues de la compra",
     "portatividad " => "practico de llevar",
     "montaje" => "facil de montar en diferentes cituasiones",
     // Puedes agregar más atributos aquí
+    ];
+
+$internet = [
+     "nombre" => "izzi",
+     "conectividad" => "largo alcanse",
+     "velocidad de coneccion" => "Gbps",
+     "acceso inalambrico" => "WI-FI,Bluetooth",
+     "protocolosde comunicacion" => "proyector DELL",
+    ];
 
     // Creamos una lista de objetos en un arreglo
 $tecnologia = [
